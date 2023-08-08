@@ -15,7 +15,7 @@
     
     .header-link {
         color: var(--ffffff, #FFF);
-        font-family: Open Sans;
+        font-family: sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 600;
@@ -42,7 +42,7 @@
     
     .subtitle {
         color: var(--3-a-68-b-8, #3A68B8);
-        font-family: Open Sans;
+        font-family: sans-serif;
         font-size: 18px;
         font-style: normal;
         font-weight: 600;
@@ -54,7 +54,7 @@
     
     .title {
         color: var(--ffffff, #FFF);
-        font-family: Open Sans;
+        font-family: sans-serif;
         font-size: 55px;
         font-style: normal;
         font-weight: 800;
@@ -65,7 +65,7 @@
     
     .dsc {
         color: var(--ffffff, #FFF);
-        font-family: Open Sans;
+        font-family: sans-serif;
         font-size: 18px;
         font-style: normal;
         font-weight: 600;
@@ -77,7 +77,7 @@
     
     .main-link {
         color: var(--ffffff, #FFF);
-        font-family: Open Sans;
+        font-family: sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 600;
@@ -118,4 +118,54 @@
     
     .main-link .fa-play {
         color: #FFF;
+    }
+    
+    .logos {
+        margin-bottom: 256px;
+    }
+    
+    .content {
+        display: grid;
+        gap: 30px;
+        grid-template-columns: repeat(3, 362px);
+        justify-content: center;
+        padding-top: 264px;
+        padding-bottom: 243px;
+    }
+    
+    .item {
+        border-radius: 10px;
+        background: #132035;
+        padding: 30px;
+        display: grid;
+        justify-items: center;
+        gap: 30px;
+    }
+    
+    .item_big {
+        grid-column: span 2;
+        grid-row: span 2;
+        gap: 60px;
+    }
+    
+    .heading {
+        color: var(--ffffff, #FFF);
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 125%;
+        /* 31.25px */
+    }
+    
+    .item__text {
+        color: var(--ffffff, #FFF);
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 26px;
+        /* 25.6px */
     }
